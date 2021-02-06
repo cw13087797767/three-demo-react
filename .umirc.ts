@@ -10,6 +10,10 @@ const config: IConfig =  {
       routes: [
         { path: '/', component: '../pages/index' },
         {
+          path:'/threeDemo/firstDemo',
+          component:'../pages/three-demo/first-demo'
+        },
+        {
           path:'/threeDemo/webgl_animation_cloth',
           component:'../pages/three-demo/webgl_animation_cloth'
         }
