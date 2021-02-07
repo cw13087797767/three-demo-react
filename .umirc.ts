@@ -14,6 +14,10 @@ const config: IConfig =  {
           component:'../pages/three-demo/first-demo'
         },
         {
+          path:'/threeDemo/secondDemo',
+          component:'../pages/three-demo/second-demo'
+        },
+        {
           path:'/threeDemo/webgl_animation_cloth',
           component:'../pages/three-demo/webgl_animation_cloth'
         }

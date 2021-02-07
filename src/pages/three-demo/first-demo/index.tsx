@@ -226,7 +226,7 @@ const firstDemo: React.FC = (props:any) => {
             T0 = T1
             requestAnimationFrame(render)
             renderer.render(scene, camera)
-            mesh.rotateY(0.001 * t)
+            mesh.rotateY(0.0005 * t)
         }
         render()
     }
